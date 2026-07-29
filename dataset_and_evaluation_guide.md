@@ -133,8 +133,8 @@ sequenceDiagram
 
 ### 5. nDCG@k (Normalized Discounted Cumulative Gain)
 - **Formula**:
-  $$\text{DCG}@k = \sum_{i=1}^{k} \frac{\text{relevance\_score}_i}{\log_2(i + 1)}$$
+  $$\text{DCG}@k = \sum_{i=1}^{k} \frac{\text{rel}_i}{\log_2(i + 1)}$$
   $$\text{nDCG}@k = \frac{\text{DCG}@k}{\text{IDCG}@k}$$
-  *(where IDCG is the Ideal DCG sorted by highest relevance score first).*
+  *(where $\text{rel}_i$ is the relevance score of the document at rank $i$, and $\text{IDCG}@k$ is the Ideal DCG sorted by highest relevance score first).*
 - **Purpose**: Evaluates ranking quality using **graded relevance scores** (`2`, `2`, `1`), penalizing lower placement of highly relevant documents.
 - **Range**: 0.0 to 1.0 (Higher is better).
