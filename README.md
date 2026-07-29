@@ -12,7 +12,7 @@ The system evaluates retrieval performance by:
 
 ## System Architecture & Sequence Diagrams
 
-See the detailed [Architecture and Sequence Diagrams Documentation](architecture.md) for full visual breakdowns.
+See the detailed [Architecture and Sequence Diagrams Documentation](architecture.md) for full visual breakdowns and the [Dataset & Evaluation Methodology Guide](dataset_and_evaluation_guide.md) for data creation and relevance grading details.
 
 ```mermaid
 flowchart TB
