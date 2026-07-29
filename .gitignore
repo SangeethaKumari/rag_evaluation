@@ -1,2 +1,4 @@
-data/
+
 qdrant_storage/
+
+.env
